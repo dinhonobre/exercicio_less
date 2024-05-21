@@ -1,0 +1,54 @@
+@import 'escapings.less';
+
+.product {
+    &.product1 {
+        .name {
+            content: ~"Nome do produto 1";
+        }
+        .description {
+            content: ~"Descrição do produto 1, cor, tamanho, textura, etc.";
+        }
+        .image {
+            content: e("@{image-placeholder}@{product-image-size}");
+        }
+    }
+
+    &.product2 {
+        .name {
+            content: ~"Nome do produto 2";
+        }
+        .description {
+            content: ~"Descrição do produto 2, cor, tamanho, textura, etc.";
+        }
+        .image {
+            content: e("@{image-placeholder}@{product-image-size}");
+        }
+    }
+
+    &.product3 {
+        .name {
+            content: ~"Nome do produto 3";
+        }
+        .description {
+            content: ~"Descrição do produto 3, cor, tamanho, textura, etc.";
+        }
+        .image {
+            content: e("@{image-placeholder}@{product-image-size}");
+        }
+    }
+
+    &.product4 {
+        .name {
+            content: ~"Nome do produto 4";
+        }
+        .description {
+            content: ~"Descrição do produto 4, cor, tamanho, textura, etc.";
+        }
+        .image {
+            content: e("@{image-placeholder}@{product-image-size}");
+        }
+    }
+}
+
+
+
